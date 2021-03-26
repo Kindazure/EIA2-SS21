@@ -1,28 +1,22 @@
 body {
     background-color: black;
+    background-image: url("ff.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: 50% -160%;
   }
 
-#text {
-    font-size: 20px;
-    text-align: center;
-    font-family: verdana;
-    color: white;
-    text-align: center;
+#start {
     position: absolute;
+    text-align: center;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  #comet {
-    opacity: 1;
-    transition: opacity 1s;
-    width: 250px;
-    transform: translate(1650px, 10px);
-}
-
-
-#comet:hover {
-    opacity: 1;
-    transform: translate(500px, 100px);
-}
+#text {
+    font-size: 20px;
+    font-family: verdana;
+    color: white;
+    text-align: center;
+  }
