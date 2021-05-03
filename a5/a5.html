@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memory</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+    </head>
+
+    <body id="background">
+        <h1> MEMORY </h1>
+
+        <form>
+            <label for="pairinput">Select the number of pairs:</label>
+            <input type="number" id="pairinput" min="5" max="25" name="pairinput"><br>
+
+            <label for="bgcolor">Select your background color:</label>
+            <input type="color" id="bgcolor" name ="bgcolor"><br>
+
+            <label for="fontcolor">Select your font color:</label>
+            <input type="color" id="fontcolor" name="fontcolor"><br>
+
+            <label for="backsidecolor">Select your cards backside color:</label>
+            <input type="color" id="backsidecolor" name="backsidecolor"><br>
+
+            <label for="sizeslider">Select your card size:</label>
+            <input class="slider" type="range" min="100" max="200" step="10" value="100" name="sizeslider"><br>
+        
+
+            <label for="Radiogroup">Set the Font:</label>
+            <label for="radio1">Arial</label>
+            <input type="radio" name="Radiogroup" value="Arial" id="radio1" />
+            
+            <label for="radio2">Calibri</label>
+            <input type="radio" name="Radiogroup" value="Calibri" id="radio2" />
+
+            <label for="radio3">Helvetica</label>
+            <input type="radio" name="Radiogroup" value="Helvetica" id="radio3" />
+        </form>
+        
+
+        <div id="startButton"> 
+            <button id="startButton"> Start </button>
+        </div>
+        </div>
+
+        <div id="winscreen">
+            <div id="Backwin">
+
+            </div>
+        </div>
+
+        <div id="spielfeld">
+
+        </div>
+
+    </body>
+
+</html>
