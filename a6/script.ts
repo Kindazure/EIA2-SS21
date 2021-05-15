@@ -1,7 +1,3 @@
-"use strict";
-
-var L08_CANVAS;
-(function (L08_CANVAS) {
     window.addEventListener("load", handleLoad);
     function handleLoad(): void {
         let canvas: HTMLCanvasElement = document.querySelector("canvas");
@@ -27,6 +23,5 @@ var L08_CANVAS;
             crc2.moveTo(x, y);
             crc2.closePath();
             crc2.stroke();
-        }
-    }
-})(L08_CANVAS || (L08_CANVAS = {}));
+            }}
+
