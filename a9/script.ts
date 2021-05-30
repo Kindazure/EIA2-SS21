@@ -1,4 +1,13 @@
-namespace eia10 {
+namespace Blumenwiese {
+
+    /* 
+    Aufgabe: L09.2_Blumenwiese: Classes
+    Name: Larissa Gaede
+    Datum: 29.05.2021
+    Quellen: Eva Breuninger, Maximilian Buckel
+    Ehrenmann: Sören Winterhalder
+    */
+
     let canvas: HTMLCanvasElement = <HTMLCanvasElement> document.getElementById("canvas");
     let c: CanvasRenderingContext2D = canvas.getContext("2d");
 
