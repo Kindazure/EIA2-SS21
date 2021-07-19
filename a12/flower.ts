@@ -18,9 +18,9 @@ namespace eia11_1 {
         draw(): void {
             switch (this.type) {
                 case 1: this.flowerType1();
-                        break;
+                    break;
                 case 2: this.flowerType2();
-                        break;
+                    break;
             }
         }
 
@@ -72,15 +72,16 @@ namespace eia11_1 {
             if (this.i == 0) {
                 this.i = 1;
                 let id: number;
-            
+
                 const frame = (): void => {
                     if (this.nectarLevel >= 30) {
-                    clearInterval(id);
-                    this.i = 0;
-                    this.nectarLevel = Math.random() * 4;
-                } else {
-                    this.nectarLevel++;
-                }};
+                        clearInterval(id);
+                        this.i = 0;
+                        this.nectarLevel = Math.random() * 4;
+                    } else {
+                        this.nectarLevel++;
+                    }
+                };
 
                 let interval: number = 300;
                 if (this.type == 2) {
@@ -89,10 +90,8 @@ namespace eia11_1 {
 
 
                 id = setInterval(frame, interval);
+            }
         }
     }
-    //Interval für Balken animation fehlt noch
 }
-
-    }
 
